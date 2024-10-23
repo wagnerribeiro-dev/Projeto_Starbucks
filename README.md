@@ -1,5 +1,3 @@
-# projeto_starbucks
- Página usando HTML5 e CSS3 puro
 # Starbucks Coffee Landing Page
 
 Este projeto é uma página estática desenvolvida para uma simulação de um site da Starbucks, usando apenas HTML e CSS puro. A página contém um cabeçalho, seções de conteúdo e links para redes sociais, focando em uma experiência visual agradável.
