@@ -1,0 +1,86 @@
+.{
+    margin: 0;
+    padding: 0;/*aquii aplica a todas as bordas do objeto*/
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    height: 100%;
+    overflow-y: hidden;/*Quando um elemento de nível de bloco deve ser cortado, organizado com barras de rolagem ou se transborda do elemento, hidden siginifica que nao vai ter  scroll(barra de rolagem), foi feito texte no html*/
+    overflow-x: hidden;
+
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;/*aqui aplica a bodas vertical e horizontal*/
+}
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+.logo{
+    width: 50%;/*largura do objeto em relação ao navegador*/
+}
+.menu{
+    width: 50%;
+    text-align: right;
+    padding-top: 30px;/*Aqui seria a distancia do menu do topo do navegador*/
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+.extras{/*Aqui seria uma div dentro da section com o sundo verde*/
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+.social_media{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+.social_media img{/*aqui seria as imagens das redes sociais*/
+    display: block;
+    width: 30px;
+    margin: 20px 0;
+}
+.texto_sobre{
+    margin: 100px;
+}
+.texto_sobre h1{
+    font-size: 50px;
+}
+.texto_sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+.texto_sobre button{
+    border: 0;
+    background-color: #017143;
+    color:white;
+    border-radius: 10px;/**aqui seria para deixar as borddas arredondadas*/
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+/* OBS:
+Quando usar o pixels ou porcentagem:
+Pixels: Ótimo para controle preciso e layouts estáticos.
+Porcentagem: Ideal para layouts responsivos e flexíveis.*/
